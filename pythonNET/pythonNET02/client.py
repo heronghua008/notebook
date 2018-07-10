@@ -1,7 +1,7 @@
 # client.py
 import socket
 sk = socket.socket()
-sk.connect(('127.0.0.1',8080))
+sk.connect(('127.0.0.1',8889))
 while True:
     info = input('>>>')
     sk.send(bytes(info,encoding='utf-8'))
